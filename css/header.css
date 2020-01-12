@@ -1,0 +1,23 @@
+.header__logo img {
+  width: 260px;
+  height: 110px;
+}
+.header__ad img {
+  width: 760px;
+  height: 110px;
+}
+.header__section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__navi {
+  font-weight: 600;
+  width: 100%;
+}
+.header__navi ul {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
