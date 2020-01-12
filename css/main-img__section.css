@@ -1,0 +1,33 @@
+.main-img__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0px;
+  background-image: url(../img/main-img2.jpg);
+}
+
+.main-img__content p {
+  color: #852424;
+  font-size: 1.4rem;
+  align-items: center;
+  line-height: 50px;
+}
+h1 .h1 {
+  font-size: 5rem;
+  line-height: 100px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.main-img__section .main-button {
+  background-color: red;
+  line-height: 220px;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding: 23px 40px;
+  border-radius: 40px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
