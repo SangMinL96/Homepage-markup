@@ -3,8 +3,9 @@
 @import "header.css";
 @import "main-img__section.css";
 @import "container.css";
+@import "footer.css";
 * {
-  box-sizing: none;
+  box-sizing: border-box;
 }
 body {
   font-family: "Open Sans", sans-serif -apple-system, BlinkMacSystemFont,
