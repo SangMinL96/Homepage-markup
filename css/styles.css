@@ -4,6 +4,7 @@
 @import "main-img__section.css";
 @import "container.css";
 @import "footer.css";
+@import "animation.css";
 * {
   box-sizing: border-box;
 }
