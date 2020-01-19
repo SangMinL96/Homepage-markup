@@ -51,6 +51,7 @@
   margin-right: 7px;
 }
 .container p {
+  width: 80%;
   font-weight: 600;
   color: rgb(116, 116, 116);
   line-height: 25px;
