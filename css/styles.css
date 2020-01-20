@@ -5,6 +5,7 @@
 @import "container.css";
 @import "footer.css";
 @import "animation.css";
+@import "media.css";
 * {
   box-sizing: border-box;
 }
