@@ -1,15 +1,20 @@
 .header__logo img {
   width: 260px;
-  height: 110px;
+  height: 100%;
+}
+.header__ad {
+  height: 100%;
+  width: 60%;
 }
 .header__ad img {
-  width: 760px;
+  width: 100%;
   height: 110px;
 }
 .header__section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 100%;
 }
 .header__navi {
   font-weight: 600;
@@ -20,4 +25,51 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+.navi__menu .media__menu {
+  padding: 10px 20px;
+  background-color: rgb(0, 247, 255);
+  color: black;
+  border-radius: 20px;
+  text-align: center;
+}
+.menu__drop {
+  display: none;
+}
+.menu__drop-bar {
+  margin-top: 10px;
+  height: 200px;
+  flex-direction: column;
+
+  border-radius: 30px;
+}
+.media__menu:hover .menu__drop {
+  display: block;
+}
+
+.navi__menu {
+  display: none;
+}
+@media (max-width: 800px) {
+  .header__section {
+    background-image: url(../img/comet-5.jpg);
+  }
+  .navi__title {
+    display: none;
+  }
+  .navi__menu {
+    flex-direction: row;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .header__logo img {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header__ad {
+    display: none;
+  }
 }
