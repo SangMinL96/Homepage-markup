@@ -3,7 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 60px 0px;
+  height: 70vh;
+
   background-image: url(../img/main-img2.jpg);
 }
 .main-img__content {
