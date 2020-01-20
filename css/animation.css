@@ -1,20 +1,30 @@
-.header__navi ul li:nth-child(1):hover,
-.header__navi ul li:nth-child(2):hover,
-.header__navi ul li:nth-child(3):hover,
-.header__navi ul li:nth-child(4):hover,
-.header__navi ul li:nth-child(5):hover,
-.header__navi ul li:nth-child(6):hover {
+.header__navi-bar .navi__title:nth-child(1):hover,
+.header__navi-bar .navi__title:nth-child(2):hover,
+.header__navi-bar .navi__title:nth-child(3):hover,
+.header__navi-bar .navi__title:nth-child(4):hover,
+.header__navi-bar .navi__title:nth-child(5):hover,
+.header__navi-bar .navi__title:nth-child(6):hover {
   padding: 45px 0px;
   border-bottom: 3px solid rgb(0, 247, 255);
 }
-.main-img__section .readmore__container {
+.button .readmore__container {
   display: none;
   position: absolute;
-  left: 380px;
   top: 0;
-  background-color: rgb(33, 167, 55);
+  left: 240px;
+  background-color: rgba(30, 167, 177, 0.884);
   padding: 360px 580px;
   border-radius: 10px;
+  animation: team-list 1s ease-in-out forwards;
+}
+@keyframes team-list {
+  0% {
+    transform: translatey(-300px);
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 .readmore__content {
   position: absolute;
