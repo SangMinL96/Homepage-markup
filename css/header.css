@@ -1,20 +1,20 @@
 .header__logo img {
-  width: 260px;
-  height: 100%;
+  width: 240px;
+  height: 100px;
 }
+
 .header__ad {
   height: 100%;
   width: 60%;
 }
 .header__ad img {
   width: 100%;
-  height: 110px;
+  height: 100px;
 }
 .header__section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100%;
 }
 .header__navi {
   font-weight: 600;
