@@ -27,6 +27,9 @@ h1 .h1 {
   font-weight: 700;
   margin-bottom: 50px;
 }
+.main-img__section .button {
+  position: relative;
+}
 
 .main-img__section .main-button {
   position: relative;
@@ -43,6 +46,9 @@ h1 .h1 {
   font-weight: 700;
   cursor: pointer;
 }
+
+/* 미디어 쿼리 */
+
 @media (max-width: 926px) {
   h1 .h1 {
     font-size: 3.5rem;

@@ -7,37 +7,7 @@
   padding: 45px 0px;
   border-bottom: 3px solid rgb(0, 247, 255);
 }
-.button .readmore__container {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 240px;
-  background-color: rgba(30, 167, 177, 0.884);
-  padding: 360px 580px;
-  border-radius: 10px;
-  animation: team-list 1s ease-in-out forwards;
-}
-@keyframes team-list {
-  0% {
-    transform: translatey(-300px);
-    opacity: 0%;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
-.readmore__content {
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  left: 0px;
-  top: 50px;
-}
-.readmore__content img {
-  width: 100px;
-  margin-left: 115px;
-  margin-top: 140px;
-}
-.button:hover .readmore__container {
+
+.button:hover .main-img__Team {
   display: block;
 }

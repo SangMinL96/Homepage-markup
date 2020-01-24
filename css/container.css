@@ -72,9 +72,11 @@
 .main-left__content {
   margin-right: 30px;
 }
+
 /*main-left__content*/
+
 .main-left__content {
-  width: 100%;
+  width: 750px;
 }
 .blog-1 img {
   width: 100%;
@@ -104,6 +106,7 @@
 }
 
 /*main-right__content*/
+
 .main-right__content {
   width: 350px;
 }
@@ -178,6 +181,9 @@
 .LatestComments .date__list {
   color: rgb(116, 116, 116);
 }
+
+/* 미디어 쿼리 */
+
 @media (max-width: 1230px) {
   .container {
     width: 1000px;
@@ -217,7 +223,7 @@
     flex-direction: column;
   }
   .main-left__content {
-    width: 500px;
+    width: 450px;
   }
   .container {
     margin-left: 20px;
